@@ -26,3 +26,15 @@
 .photo__url {
   background-image: url('../../images/img/bg\ \(1\).png');
 }
+
+.header__title::after {
+  position: absolute;
+}
+
+.photo:focus {
+  width: 800px;
+  height: 4000px;
+  max-width: 100%;
+  object-fit:fill;
+  display: block;
+}
